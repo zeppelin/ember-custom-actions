@@ -14,9 +14,9 @@ module.exports = {
       ]
     });
 
-    this.import('node_modules/jquery-param/jquery-param.js', {
+    this.import('node_modules/querystring/index.js', {
       using: [
-        { transformation: 'amd', as: 'jquery-param' }
+        { transformation: 'cjs', as: 'querystring' }
       ]
     });
   },
